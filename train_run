@@ -1,0 +1,8 @@
+python3 -m A2C_main
+python3 -m DDPG_main
+python3 -m DDQN_main
+python3 -m MADDPG_main
+python3 -m MAPPO_main
+python3 -m PPO_main
+python3 -m SAC_main
+python3 -m TD3_main 
