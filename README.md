@@ -10,6 +10,7 @@ An enterprise-ready, modular deep reinforcement learning (DRL) framework optimiz
 
 The project features a unique state-space architecture that bridges qualitative unstructured news with quantitative macroeconomic data.
 
+```text
 +------------------------------------------+
 |            STATE SPACE MATRIX            |
 +------------------------------------------+
@@ -20,6 +21,7 @@ The project features a unique state-space architecture that bridges qualitative 
 |  [Quantitative Financial KPIs]           | --> SQLite Relational Tables
 |   - Gross Margin, YoY Growth, Leverage   |
 +------------------------------------------+
+```
 
 ### Unstructured Event Impact Extraction (Ollama Pipeline)
 Rather than relying on basic dictionary-based sentiment tools, the system passes raw corporate news timelines directly into a local MacBook-hosted **Ollama model (`llama3:8b`)**. The pipeline converts complex, ambiguous events into a standardized risk-impact scale spanning `[-1.0, 1.0]`:
