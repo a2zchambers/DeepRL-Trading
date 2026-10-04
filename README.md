@@ -1,6 +1,6 @@
 # 🚀 DeepRL-Sector-Quant: Autonomous Sector Portfolio Optimization Engine
 
-![Company Logo](https://www.a2zchambers.com)
+![Company Logo](company_logo.png)
 
 An enterprise-ready, modular deep reinforcement learning (DRL) framework optimized for M-series MacBook Pros (`mps` hardware acceleration). This repository parses raw corporate text events via local **Ollama LLMs** and cross-references them against structured relational **yfinance SQLite tables**. The objective is to train autonomous agents capable of continuous or discrete asset allocation within highly correlated sector universes (e.g., Semiconductors, Software, Energy).
 
