@@ -50,29 +50,7 @@ This platform includes **8 cutting-edge reinforcement learning paradigms**. Each
 
 ---
 
-## 🛠️ 3. Repository Organization & Execution
-
-### Project Folder File Trees
-```text
-/
-├── config.py              # Centralized hyperparameters & absolute DB routing paths
-├── database.py            # SQLite parsing engine, dynamic KPI calculation, and date union logic
-├── fetch_prices.py        # 5-Year daily pricing yfinance scraper pipeline
-├── models.py              # DDPG and DDQN network deep neural layers
-├── ppo_models.py          # Stochastic PPO network architectures (Dirichlet)
-├── maddpg_models.py       # Multi-agent centralized critic networks
-├── mappo_models.py        # Multi-agent PPO stochastic networks (Beta)
-├── sac_models.py          # Twin critic Maximum Entropy SAC networks
-├── a2c_models.py          # Shared backbone A2C architectures
-├── td3_models.py          # Delayed policy twin-critic TD3 structures
-├── main.py                # DDPG default optimizer script
-├── main_ppo.py            # PPO optimization run orchestrator
-├── MADDPG_main.py         # Multi-agent deterministic executor
-├── MAPPO_main.py          # Multi-agent stochastic policy executor
-├── main_sac.py            # Soft Actor-Critic execution script
-├── A2C_main.py            # Advantage Actor-Critic on-policy executor
-└── main_td3.py            # Twin Delayed execution script
-```
+## 🛠️ 3. Execution
 
 ### Initial Execution Workflow
 1.  **Pull the Local Inference Model:**
